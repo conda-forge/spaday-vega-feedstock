@@ -1,5 +1,5 @@
 context:
-  version: "0.1.0"
+  version: "0.1.1"
 
 package:
   name: spaday-vega
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-vega/spaday_vega-${{ version }}.tar.gz
-  sha256: 55a51d3a8f535dd3aef002a446180cd12eb26704c9455183a4a0a3194397eafd
+  sha256: cfb7800df5f14958a3cdaf291408baf5063bec6f69ab5d747e24a80f63989627
 
 build:
   number: 0
