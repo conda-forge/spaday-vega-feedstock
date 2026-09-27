@@ -1,5 +1,5 @@
 context:
-  version: "0.1.1"
+  version: "0.2.0"
 
 package:
   name: spaday-vega
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-vega/spaday_vega-${{ version }}.tar.gz
-  sha256: cfb7800df5f14958a3cdaf291408baf5063bec6f69ab5d747e24a80f63989627
+  sha256: 18205fa0826f74ab7e7dd25e6f83815278155ca8609d717d2ee1d0e5b39fe7bb
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - spaday >=0.8.2,<1
+    - spaday >=0.11.1,<1.0
 
 tests:
   - python:
